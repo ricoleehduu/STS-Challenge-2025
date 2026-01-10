@@ -1,3 +1,4 @@
+README.md
 # 🦷 STSR 2025: 3rd Semi-supervised Teeth Segmentation and Registration MICCAI Challenge  
 **MICCAI 2025, Daejeon, Republic of Korea | September 23-27, 2025**  
 
@@ -8,8 +9,10 @@
 ## 📖 Table of Contents
 - [Introduction](#-introduction)
 - [Tracks](#-tracks)
+- [Rankings](#-rankings)
 - [Important Dates](#-important-dates-pst)
 - [Contact](#-contact)
+- [Citation](#-citation)
 
 ---
 
@@ -23,24 +26,38 @@ In this year, building upon the previous semi-supervised challenge theme, we hos
 ## 🏁 Tracks  
 
 ### Track 1: CBCT teeth and root pulp canal segmentation
-![panoramic-image](./assets/image-20250613132918804.png)
+![panoramic-image](D:\work\2025-10-26\code\STS-Challenge-2025\assets\segmentation-1.png)
 The segmentation algorithm is expected to segment all the teeth and root pulp canal accurately.
 
 [CLICK ME TO JOIN🔥](#)
 
 ### Track 2: CBCT-IOS registration
-![cbct-image](https://songhen15.github.io/STSdevelop.github.io/miccai2025/images/registration-1.png)
+![cbct-image](D:\work\2025-10-26\code\STS-Challenge-2025\assets\registration-1.png)
 The registration algorithm is expected to register the teeth crown and the corresponding root.
 
 [CLICK ME TO JOIN🔥](#)
 
 ---
 
-## 📬 News
-We are excited to share some recent news and updates with you, highlighting significant milestones and upcoming events that reflect our ongoing efforts and achievements in the STSR 2025 Challenge:
+## 📊 Rankings
 
-[2025.04] The competition is officially launched and baseline is available!!!
-[2025.03] Our challenge has been accepted by the MICCAI 2025, as a part of ONDI Workshop!!!
+### Track 1: CBCT teeth and root pulp canal segmentation
+
+| Rank | Team ID | Title | Report | Code |
+|------|---------|-------|--------|------|
+| 1st | 21 | U-Mamba2 SSL for Semi Supervised | [PDF](./TechnicalReport/task1/rank01-21_U_Mamba2_SSL_for_Semi_Super.pdf) | [Code](./code/task1/rank01-Tan%20Zhi%20Qin.zip) |
+| 2nd | 19 | Efficient nnU-Net for Tooth | [PDF](./TechnicalReport/task1/rank02-19_Efficient_nnU_Net_for_Tooth.pdf) | [Code](./code/task1/rank02-changkaiJi.zip) |
+| 3rd | 23 | nnUNet for Semi supervised | [PDF](./TechnicalReport/task1/rank03-23_nnUNet_for_Semi_supervised_.pdf) | [Code](./code/task1/rank03-dicemed.zip) |
+| 4th | 25 | TCM-UNet: A U-Net with Tri Attention | [PDF](./TechnicalReport/task1/rank04-25_TCM_UNet_A_U_Net_with_Tri_A.pdf) | - |
+
+### Track 2: CBCT-IOS registration
+
+| Rank | Team ID | Title | Report | Code |
+|------|---------|-------|--------|------|
+| 1st | 24 | Semi supervised Teeth Segme | [PDF](./TechnicalReport/task2/rank01-24_Semi_supervised_Teeth_Segme.pdf) | [Code](./code/task2/rank01-dicemed.zip) |
+| 2nd | 20 | Learning based CBCT IOS Reg | [PDF](./TechnicalReport/task2/rank02-20_Learning_based_CBCT_IOS_Reg.pdf) | [Code](./code/task2/rank02-dicemed.zip) |
+
+---
 
 ## 🗓️ Important Dates (PST)
 
@@ -56,5 +73,18 @@ We are excited to share some recent news and updates with you, highlighting sign
 
 ## 📧 Contact
 For any inquiries, please feel free to reach out via email at SemiTeethSegChallenge@outlook.com or zhi.li@hdu.edu.cn. We welcome any questions, feedback, or requests for further information regarding the STSR 2025 Challenge. If you have urgent or additional needs, We look forward to meeting each one of you this year, face to face if possible. See you at Daejeon, Republic of Korea!
+
+## 📚 Citation
+If you use this challenge in your research, please cite it as follows:
+
+```
+@dataset{sts-challenge-2025,
+  author = {STSR Challenge Organizers},
+  title = {STSR 2025: 3rd Semi-supervised Teeth Segmentation and Registration MICCAI Challenge},
+  year = {2025},
+  publisher = {MICCAI 2025},
+  url = {https://songhen15.github.io/STSdevelop.github.io/miccai2025/index.html}
+}
+```
 
 Copyright @ College of Media Engineering, Communication University of Zhejiang, Hangzhou, 310018, China.
