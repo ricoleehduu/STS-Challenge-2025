@@ -78,13 +78,15 @@ For any inquiries, please feel free to reach out via email at SemiTeethSegChalle
 If you use this challenge in your research, please cite it as follows:
 
 ```
-@dataset{sts-challenge-2025,
-  author = {STSR Challenge Organizers},
-  title = {STSR 2025: 3rd Semi-supervised Teeth Segmentation and Registration MICCAI Challenge},
-  year = {2025},
-  publisher = {MICCAI 2025},
-  url = {https://songhen15.github.io/STSdevelop.github.io/miccai2025/index.html}
+@misc{wang2025miccaistsr2025challenge,
+      title={MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration}, 
+      author={Yaqi Wang and Zhi Li and Chengyu Wu and Jun Liu and Yifan Zhang and Jialuo Chen and Jiaxue Ni and Qian Luo and Jin Liu and Can Han and Changkai Ji and Zhi Qin Tan and Ajo Babu George and Liangyu Chen and Qianni Zhang and Dahong Qian and Shuai Wang and Huiyu Zhou},
+      year={2025},
+      eprint={2512.02867},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.02867}, 
 }
 ```
 
-Copyright @ College of Media Engineering, Communication University of Zhejiang, Hangzhou, 310018, China.
+Copyright @ Hangzhou Dianzi University, Hangzhou, 310018, China.
